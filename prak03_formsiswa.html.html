@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>FORMULIR SISWA</title>
+
+    <style type="text/css">
+        body{ 
+            background-color: aquamarine;
+        } 
+        p { 
+            color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="header" style="text-align: center; background-color: blueviolet;">
+    <h1> FORMULIR REGISTRASI </h1> 
+    </div>
+
+    <form action="" method="POST">
+        <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username"/>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email"/>
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password"/>
+        </p>
+        <p>
+            <input type="checkbox" />
+            <label> Remember Me </label>
+        </p>
+        </fieldset>
+
+        <p>
+            <label> Nama:</label>
+            <input type="text">
+        </p>
+
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label> Tanggal Lahir</label>
+            <input type="date" name="tanggal">
+        </p>
+        <p>
+            <label>Agama:</label>
+                <select name="Agama">
+                    <option value="Agama"> Agama</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                </select>
+        </p>
+        <p>
+            <label> Alamat: </label>
+            <input type="text" name="jalan" size="40">
+
+                <select name="Kota">
+                <option value="">KOTA</option>
+                <option value="">Ambon</option>
+                <option value="">Aceh</option>
+                <option value="">Bali</option>
+                <option value="">Bangka</option>
+                <option value="">Banyuwangi</option>
+                <option value="">Bandung</option>
+                <option value="">Bogor</option>
+                <option value="">Cianjur</option>
+                <option value="">Cimahi</option>
+                <option value="">Depok</option>
+                <option value="">Tanggerang</option>
+                <option value="">Bekasi</option>
+                <option value="">Jakarta</option>
+            </select>
+            <select name="Provinsi">
+                <option value="">Provinsi</option>
+                <option value="">DKI Jakarta</option>
+                <option value="">Jawa Barat</option>
+                <option value="">Jawa Tengah</option>
+                <option value="">Jawa Timur</option>
+                <option value="">Bali</option>
+            </select>
+
+            <p>
+                <label> No. Telephone:</label>
+                <input type="number" name="nohp">
+            </p>
+            <p>
+                <label> Hobby: </label>
+                <input type="text" name="hobby"> 
+            </p>
+            <p>
+                <label> Biografi Singkat: </label>
+                <textarea name="Biografi"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Daftar">
+                <input type="reset" value="Reset">
+                <input type="button" value="Kembali">
+            </p>
+
+
+
+    </form>
+</body>
+</html>
